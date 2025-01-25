@@ -54,7 +54,7 @@ class GamePortingToolkit < Formula
                   "gnutls",
                   "libusb",
                   "gettext",
-                  "openssl@3",
+                  "openssl@3.0",
                   "sane-backends"]
   @@named_deps.each do |dep|
     depends_on dep
